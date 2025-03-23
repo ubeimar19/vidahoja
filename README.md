@@ -1,4 +1,3 @@
-# vidahoja
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -380,10 +379,12 @@
             </div>
         </div>
     </div>
+
     <script>
         function showTab(tabName, element) {
             document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
+
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
             element.classList.add('active');
         }
